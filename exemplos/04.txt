@@ -1,0 +1,11 @@
+program exemploWhile;
+procedure meuProcedure begin
+  write(_Procedimento chamado!_);
+end;
+declaravariaveis contador : integer;
+begin
+  while [contador < 5 ] do begin
+    write(_Contador: _, contador)
+  end;
+  chamaprocedure meuProcedure;
+end.

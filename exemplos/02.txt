@@ -1,0 +1,10 @@
+program exemploRepeat;
+const receber = integer;
+declaravariaveis contador : integer;
+begin
+  write(_Digite um valor de entrada: _);
+  read(receber);
+  repeat
+    write(_Contador: _, contador)
+  until [contador = 5 ];
+end.

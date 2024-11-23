@@ -1,0 +1,13 @@
+program exemploFor;
+const limite = integer;
+declaravariaveis i : integer;
+begin
+  for [i = 1 ] to [limite] do begin
+    if [i < limite] then begin 
+      write(_Valor de i é igual a : _, limite) 
+    end 
+    else begin 
+      write(_Valor de i não é menor que : _, limite)
+    end
+  end;
+end.

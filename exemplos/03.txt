@@ -1,0 +1,5 @@
+program exemploFor;
+declaravariaveis i, i, sd : integer;
+begin
+    ;
+end.
